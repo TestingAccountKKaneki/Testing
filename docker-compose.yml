@@ -15,4 +15,4 @@ services:
             dockerfile: Dockerfile.dev
         volumes:
             - ./:/usr/app
-        command: ["yarn","run","test"]
+        command: ["npm","run","test"]
